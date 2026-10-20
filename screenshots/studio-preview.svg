@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <style>
+      .app-bg { fill: #0a0d14; }
+      .header-bg { fill: #121824; stroke: #243048; stroke-width: 1; }
+      .sidebar-bg { fill: #121824; stroke: #243048; stroke-width: 1; }
+      .preview-bg { fill: #06080d; }
+      .card-bg { fill: #182030; stroke: #243048; stroke-width: 1; rx: 8; }
+      .input-bg { fill: #0c101a; stroke: #243048; stroke-width: 1; rx: 4; }
+      .brand-title { font-family: sans-serif; font-size: 17px; font-weight: 800; fill: #f8fafc; }
+      .sec-hdr { font-family: sans-serif; font-size: 11px; font-weight: 700; fill: #38bdf8; text-transform: uppercase; letter-spacing: 0.5px; }
+      .lbl-txt { font-family: sans-serif; font-size: 11px; font-weight: 600; fill: #94a3b8; }
+      .val-txt { font-family: sans-serif; font-size: 12px; fill: #f8fafc; }
+      .btn-blue { fill: #0284c7; rx: 6; }
+      .btn-gray { fill: #182030; stroke: #243048; stroke-width: 1; rx: 6; }
+      .btn-txt { font-family: sans-serif; font-size: 12px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="app-bg" width="1200" height="750" />
+
+  <!-- App Header -->
+  <rect class="header-bg" x="0" y="0" width="1200" height="60" />
+  <rect fill="#0284c7" x="20" y="14" width="32" height="32" rx="6" />
+  <text font-family="sans-serif" font-size="14" font-weight="900" fill="#fff" x="27" y="35">OG</text>
+  <text class="brand-title" x="65" y="36">OGImage Forge Pro</text>
+  <rect fill="rgba(56, 189, 248, 0.15)" x="240" y="20" width="55" height="20" rx="4" />
+  <text font-family="sans-serif" font-size="11" font-weight="700" fill="#38bdf8" x="252" y="34">v1.0.0</text>
+
+  <!-- Header Buttons -->
+  <g transform="translate(680, 14)">
+    <rect class="input-bg" x="0" y="0" width="190" height="32" />
+    <text class="val-txt" x="12" y="21">SaaS Product Release (Dark)</text>
+    <rect class="btn-gray" x="200" y="0" width="90" height="32" />
+    <text class="btn-txt" x="245" y="20">Export SVG</text>
+    <rect class="btn-blue" x="300" y="0" width="190" height="32" />
+    <text class="btn-txt" x="395" y="20">Download 1200x630 PNG</text>
+  </g>
+
+  <!-- Left Sidebar Controls -->
+  <rect class="sidebar-bg" x="0" y="60" width="460" height="690" />
+  <g transform="translate(20, 80)">
+    <!-- Card Content -->
+    <rect class="card-bg" x="0" y="0" width="420" height="200" />
+    <text class="sec-hdr" x="15" y="24">Card Content</text>
+    <text class="lbl-txt" x="15" y="48">Headline / Title</text>
+    <rect class="input-bg" x="15" y="55" width="390" height="42" />
+    <text class="val-txt" x="25" y="74">Introducing AgentFlow 2.0: Autonomous Workflow...</text>
+
+    <text class="lbl-txt" x="15" y="112">Description / Excerpt</text>
+    <rect class="input-bg" x="15" y="119" width="390" height="32" />
+    <text class="val-txt" x="25" y="139">Deploy self-healing multi-agent pipelines with sub-second...</text>
+
+    <text class="lbl-txt" x="15" y="165">Category: PRODUCT LAUNCH | Brand: AgentFlow.io</text>
+
+    <!-- Metadata & Author -->
+    <rect class="card-bg" x="0" y="215" width="420" height="145" />
+    <text class="sec-hdr" x="15" y="239">Author &amp; Tags</text>
+    <text class="lbl-txt" x="15" y="262">Author Name / Handle</text>
+    <rect class="input-bg" x="15" y="269" width="185" height="28" />
+    <text class="val-txt" x="25" y="288">Sarah Jenkins • CEO</text>
+    <text class="lbl-txt" x="215" y="262">Read Time / Version</text>
+    <rect class="input-bg" x="215" y="269" width="190" height="28" />
+    <text class="val-txt" x="225" y="288">v2.0 Release Notes</text>
+
+    <text class="lbl-txt" x="15" y="315">Tags: AI Agents, Python, Workflows, Automation</text>
+
+    <!-- Visual Theme -->
+    <rect class="card-bg" x="0" y="375" width="420" height="100" />
+    <text class="sec-hdr" x="15" y="399">Visual Theme</text>
+    <text class="lbl-txt" x="15" y="422">Color Palette &amp; Gradient</text>
+    <rect class="input-bg" x="15" y="430" width="390" height="28" />
+    <text class="val-txt" x="25" y="449">Dark Cyber Gradient (Modern SaaS)</text>
+  </g>
+
+  <!-- Right Canvas Workspace -->
+  <rect class="preview-bg" x="460" y="60" width="740" height="690" />
+  <g transform="translate(490, 85)">
+    <!-- Dimension Badge & Zoom -->
+    <text font-family="monospace" font-size="12" fill="#94a3b8" x="0" y="20">1200 × 630 px (1.91 : 1)</text>
+
+    <!-- Scaled Card Preview (75% scale = 680x357) -->
+    <g transform="translate(0, 40)">
+      <rect fill="#090d16" stroke="#243048" stroke-width="1.5" width="680" height="357" rx="10" filter="drop-shadow(0 20px 40px rgba(0,0,0,0.7))" />
+      <rect fill="none" stroke="#0284c7" stroke-width="1" stroke-opacity="0.3" x="14" y="14" width="652" height="329" rx="8" />
+
+      <!-- Inner Card Preview Elements -->
+      <rect fill="rgba(56, 189, 248, 0.15)" stroke="#0284c7" stroke-width="0.8" x="45" y="40" width="110" height="22" rx="4" />
+      <text font-family="sans-serif" font-size="8.5" font-weight="700" fill="#38bdf8" x="100" y="54" text-anchor="middle">PRODUCT LAUNCH</text>
+      <text font-family="sans-serif" font-size="12" font-weight="800" fill="#f8fafc" x="635" y="55" text-anchor="end">AgentFlow.io</text>
+
+      <text font-family="sans-serif" font-size="24" font-weight="800" fill="#f8fafc" x="45" y="115">Introducing AgentFlow 2.0:</text>
+      <text font-family="sans-serif" font-size="24" font-weight="800" fill="#f8fafc" x="45" y="145">Autonomous Workflow Orchestration</text>
+
+      <text font-family="sans-serif" font-size="13" fill="#94a3b8" x="45" y="185">Deploy self-healing multi-agent pipelines with sub-second execution,</text>
+      <text font-family="sans-serif" font-size="13" fill="#94a3b8" x="45" y="205">distributed memory caching, and zero cloud lock-in.</text>
+
+      <!-- Mini tags -->
+      <rect fill="#1e293b" x="45" y="240" width="70" height="20" rx="4" />
+      <text font-family="sans-serif" font-size="9.5" fill="#cbd5e1" x="80" y="254" text-anchor="middle">AI Agents</text>
+      <rect fill="#1e293b" x="125" y="240" width="60" height="20" rx="4" />
+      <text font-family="sans-serif" font-size="9.5" fill="#cbd5e1" x="155" y="254" text-anchor="middle">Python</text>
+      <rect fill="#1e293b" x="195" y="240" width="75" height="20" rx="4" />
+      <text font-family="sans-serif" font-size="9.5" fill="#cbd5e1" x="232" y="254" text-anchor="middle">Workflows</text>
+
+      <!-- Footer -->
+      <circle cx="50" cy="305" r="7" fill="#38bdf8" />
+      <text font-family="sans-serif" font-size="10.5" fill="#94a3b8" x="65" y="309">Sarah Jenkins • Founder &amp; CEO</text>
+      <text font-family="sans-serif" font-size="10.5" fill="#94a3b8" x="635" y="309" text-anchor="end">v2.0 Release Notes</text>
+    </g>
+
+    <!-- Meta Tags Output Card -->
+    <g transform="translate(0, 420)">
+      <rect fill="#182030" stroke="#243048" stroke-width="1" width="680" height="150" rx="8" />
+      <text font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc" x="20" y="30">HTML Social Meta Tags</text>
+      <rect fill="#0c101a" stroke="#243048" stroke-width="1" x="20" y="45" width="640" height="85" rx="6" />
+      <text font-family="monospace" font-size="10.5" fill="#38bdf8" x="35" y="70">&lt;meta property="og:image" content="https://yourdomain.com/og-image.png" /&gt;</text>
+      <text font-family="monospace" font-size="10.5" fill="#38bdf8" x="35" y="90">&lt;meta name="twitter:card" content="summary_large_image" /&gt;</text>
+      <text font-family="monospace" font-size="10.5" fill="#38bdf8" x="35" y="110">&lt;meta property="og:title" content="Introducing AgentFlow 2.0..." /&gt;</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "title": "Why We Migrated From Node.js to Bun & Rust at Scale",
+  "description": "How reducing cold start latency by 72% cut our cloud infrastructure bill by $14,000 per month while handling 40,000 req/sec.",
+  "category": "ENGINEERING",
+  "brand": "TechStack Digest",
+  "author": "David Chen • Principal Architect",
+  "readTime": "8 min read",
+  "tags": ["Rust", "Bun", "Microservices", "DevOps"],
+  "theme": "minimal_light"
+}

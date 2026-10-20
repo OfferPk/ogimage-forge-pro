@@ -1,0 +1,10 @@
+{
+  "title": "Introducing AgentFlow 2.0: Autonomous Workflow Orchestration",
+  "description": "Deploy self-healing multi-agent pipelines with sub-second execution, distributed memory caching, and zero cloud lock-in.",
+  "category": "PRODUCT LAUNCH",
+  "brand": "AgentFlow.io",
+  "author": "Sarah Jenkins • Founder & CEO",
+  "readTime": "v2.0 Release Notes",
+  "tags": ["AI Agents", "Python", "Workflows", "Automation"],
+  "theme": "dark_gradient"
+}
